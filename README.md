@@ -1,2 +1,9 @@
-# docker-debian-build
-Build Docker things with Debian
+# Debian Build using Docker
+
+### Building
+
+`$ docker build -t debian-build .`
+
+### Running
+
+`$ docker run -it --rm debian-build` 
